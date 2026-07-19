@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
 
 <meta charset="UTF-8">
@@ -14,34 +15,122 @@
 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Great+Vibes&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
 
-<div id="inicio">
+<audio id="musica" loop>
+<source src="musica/musica.mp3" type="audio/mpeg">
+</audio>
+
+<section id="inicio">
 
 <h1>Jéssica</h1>
 
-<h2>Esta é a nossa história...</h2>
+<h2>Últimas Lembranças...</h2>
 
 <p>
-Algumas pessoas passam pela nossa vida...
-Outras deixam marcas que o tempo nunca consegue apagar.
+
+Talvez esta seja a última vez que você veja algo feito por mim.
+
+Então eu só queria que, por alguns minutos,
+você lembrasse da nossa história.
+
 </p>
 
 <button id="entrar">
-Entrar
+
+Começar ❤️
+
 </button>
+
+</section>
+
+<section id="galeria" style="display:none;">
+
+<img id="foto" src="fotos/foto1.jpg">
+
+<p id="texto"></p>
+
+</section>
+
+<section id="final" style="display:none;">
+
+<h2>Uma última carta...</h2>
+
+<div class="carta">
+
+<p>
+
+Se você chegou até aqui...
+
+Obrigado por ter dedicado alguns minutos para lembrar da nossa história.
+
+Antes de qualquer coisa...
+
+Eu queria te pedir perdão.
+
+Perdão por todas as vezes que eu não consegui ser o homem que você precisava.
+
+Perdão pelos erros.
+
+Pelas palavras.
+
+Pelos momentos em que falhei.
+
+Pelas oportunidades que desperdicei.
+
+Hoje eu entendo que amar também significa cuidar todos os dias.
+
+Infelizmente aprendi muitas coisas tarde demais.
+
+Mesmo assim...
+
+Obrigado por tudo que vivemos.
+
+Você marcou minha vida para sempre.
+
+Espero que um dia consiga lembrar de mim pelos nossos momentos felizes.
+
+</p>
 
 </div>
 
-<audio id="musica" loop>
+<button id="pedido">
 
-<source src="musica/musica.mp3" type="audio/mpeg">
+Posso te pedir uma última coisa?
 
-</audio>
+</button>
+
+</section>
+
+<div id="ultimaMensagem" style="display:none;">
+
+<h2>Meu último pedido...</h2>
+
+<p>
+
+Meu pedido para você é poder tocar você novamente pela última vez.
+
+Não para insistir em algo que você não queira.
+
+Mas apenas para guardar um último abraço,
+um último carinho
+e uma última lembrança da pessoa que eu tanto amei.
+
+Se você não puder...
+
+Eu vou entender.
+
+Obrigado por tudo.
+
+❤️
+
+</p>
+
+</div>
 
 <script src="js/script.js"></script>
 
